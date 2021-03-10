@@ -1,5 +1,12 @@
 <?php
-  $message = "こんにちは" . date("l");
+  $n = mt_rand(1, 3);
+
+  if($n == 1){
+    $message = "UI/UXデザイナーです。";
+  } else {
+    $message = "プログラミング勉強中です";
+  }
+
 ?>
 
 <!DOCTYPE html>
